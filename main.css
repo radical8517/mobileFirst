@@ -390,6 +390,7 @@ main  {
 
 .plans-container--card {
     position: relative;
+    scroll-snap-align: center;
     width: 70%;
     min-width: 230px;
     max-width: 300px;
@@ -460,5 +461,15 @@ main  {
     width: 20px;
     height: 20px;
     background-image: url('/assets/icons/arrow-right.svg');
+    vertical-align: text-bottom;
     
+}
+
+.plans-container--slider {
+    display: flex;
+    gap: 50px;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
 }
