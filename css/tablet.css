@@ -1,0 +1,11 @@
+.wrapito {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 930px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.plans-container--slider  {
+    justify-content: center;
+}

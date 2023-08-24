@@ -390,11 +390,12 @@ main  {
 
 .plans-container--slider {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     height: 316px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
+    overflow-y: hidden;
 }
 .plans-container--card {
     position: relative;
