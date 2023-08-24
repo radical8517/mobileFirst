@@ -392,7 +392,7 @@ main  {
     position: relative;
     scroll-snap-align: center;
     width: 70%;
-    min-width: 190px;
+    min-width: 250px;
     max-width: 300px;
     height: 250px;
     margin: 50px 5px 0;
@@ -432,7 +432,7 @@ main  {
 .plan-card--price span {
     position: absolute;
     top: -5px;
-    left: 60px;
+    left: 40px;
     font-size: 1.2rem;
     font-weight: 300;
 }
