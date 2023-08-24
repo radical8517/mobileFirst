@@ -388,6 +388,14 @@ main  {
     color: #757575;
 }
 
+.plans-container--slider {
+    display: flex;
+    justify-content: center;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
 .plans-container--card {
     position: relative;
     scroll-snap-align: center;
@@ -432,7 +440,7 @@ main  {
 .plan-card--price span {
     position: absolute;
     top: -5px;
-    left: 40px;
+    left: 80px;
     font-size: 1.2rem;
     font-weight: 300;
 }
@@ -465,14 +473,7 @@ main  {
     
 }
 
-.plans-container--slider {
-    display: flex;
-    gap: 10px;
-    height: 316px;
-    overflow-x: scroll;
-    overscroll-behavior-x: contain;
-    scroll-snap-type: x proximity;
-}
+
 footer {
     display: flex;
     width: 100%;
